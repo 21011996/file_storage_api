@@ -17,7 +17,7 @@ To run tests use ```python -m unittest discover src/tests```
 
 ### API documentation
 Method|URL|JSON attachment|Requires login|Description
-:---|:---|:---:|:---:|:---
+---|---|---|---|---
 **POST**|http://localhost:5000/file_storage/api/v1.0/user/|{'username':username, 'password':password}|No|Add user
 **DELETE**|http://localhost:5000/file_storage/api/v1.0/user/[username]|-|Yes|Deletes specified user
 **PUT**|http://localhost:5000/file_storage/api/v1.0/user/[username]|{'password':new_password}|Yes|Changes password to ```new_password```
