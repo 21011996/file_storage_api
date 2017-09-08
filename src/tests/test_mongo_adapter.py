@@ -1,6 +1,6 @@
 import unittest
 
-from db_adapter import MongoDBAdapter
+from src.db_adapter import MongoDBAdapter
 
 
 class MongoDBAdatperTest(unittest.TestCase):

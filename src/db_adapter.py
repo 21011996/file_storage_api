@@ -1,8 +1,8 @@
 from mongoengine import *
 
-from adapter import Adapter
-from constants import Constants
-from schema import User, Directory, File
+from src.adapter import Adapter
+from src.constants import Constants
+from src.schema import User, Directory, File
 
 
 def find_user_ref(func):

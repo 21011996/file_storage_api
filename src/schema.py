@@ -1,6 +1,6 @@
 from mongoengine import *
 
-from constants import Constants
+from src.constants import Constants
 
 
 class User(Document):

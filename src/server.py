@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, make_response, request, abort
 from flask_httpauth import HTTPBasicAuth
 
-from constants import Constants
-from db_adapter import MongoDBAdapter
+from src.constants import Constants
+from src.db_adapter import MongoDBAdapter
 
 app = Flask(__name__, static_url_path="")
 auth = HTTPBasicAuth()
