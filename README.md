@@ -28,6 +28,6 @@ Method|URL|JSON attachment|Requires login|Description
 **DELETE**|http://localhost:5000/file_storage/api/v1.0/root/[dir_name]|-|Yes|Delete directory
 **GET**|http://localhost:5000/file_storage/api/v1.0/root/[dir_name]|-|Yes|Returns list of file names in this directory
 **POST**|http://localhost:5000/file_storage/api/v1.0/root/[dir_name]|{'filename':file_name,'filecontent':filecontent}|Yes|Add file to specified directory
-**PUT**|http://localhost:5000/file_storage/api/v1.0/root/[dir_name]/[file_name]|{'filecontent':filecontent}|[X]|Update file with ```filecontent```
+**PUT**|http://localhost:5000/file_storage/api/v1.0/root/[dir_name]/[file_name]|{'filecontent':filecontent}|Yes|Update file with ```filecontent```
 **DELETE**|http://localhost:5000/file_storage/api/v1.0/root/[dir_name]/[file_name]|-|Yes|Delete file
 **GET**|http://localhost:5000/file_storage/api/v1.0/root/[dir_name]/[file_name]|-|Yes|Returns file content 
