@@ -24,12 +24,12 @@ def unauthorized():
 
 
 @app.errorhandler(400)
-def not_found():
+def not_found(error):
     return make_response(mk_answer('Bad request', 'error'), 400)
 
 
 @app.errorhandler(404)
-def not_found():
+def not_found(error):
     return make_response(mk_answer('Not found', 'error'), 404)
 
 
